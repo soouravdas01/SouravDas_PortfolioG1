@@ -3,7 +3,7 @@
 ## Overview
 Welcome to the repository for my personal portfolio! This portfolio showcases my work, skills, and interests in civil engineering, web development, and more.
 
-You can view the live version of the portfolio [here](https://your-portfolio-link.vercel.app).
+You can view the live version of the portfolio [here](https://sourav-das-portfolio-g1.vercel.app/index.html).
 
 ## Current Status
 ⚠️ **Under Development**  
