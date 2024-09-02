@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sourav Das - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Add custom styling for the gallery sections */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 1rem); /* Adjust for responsive layout */
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 1 calc(50% - 1rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex: 1 1 100%;
+            }
+        }
+        
+        /* Custom styling for PDF gallery */
+        .pdf-gallery {
+            display: flex;
+            flex-direction: column; /* Stack PDFs vertically */
+            gap: 1rem;
+        }
+        .pdf-gallery-item {
+            width: 100%; /* Full width for each PDF */
+            box-sizing: border-box;
+        }
+        .pdf-gallery-item iframe {
+            width: 100%;
+            height: 600px; /* Adjust height as needed */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Hi, I'm <a href="https://www.linkedin.com/in/soouravdas15/" target="_blank">সৌরভ দাস</a></h1>
+            <p>Welcome to my portfolio. I'm passionate about turning ideas into digital realities. Explore my work and connect with me!</p>
+            <ul class="actions">
+                <li><a href="#about" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Sourav Das</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://linkedin.com/in/soouravdas15/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100066839941691&mibextid=ZbWKwL" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/soouravdas01?igsh=cm15amM0bHg0dGxs" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/soouravdas01" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- About Section -->
+            <section id="about">
+                <header class="major">
+                    <h2>About Me</h2>
+                </header>
+                <div class="about-content">
+                    <div class="about-image">
+                    <img id="framedImage" src="images/me.jpg" alt="Sourav Das">
+                    </div>
+                    <div class="about-text">
+                    <p>
+                        I am Sourav Das, a 4th-year Civil Engineering student at NIT Silchar with a passion for integrating technology into real-world applications. My journey has taken me from exploring complex civil engineering projects to delving into the realms of web development and data science.
+                    </p>
+                    <p>
+                        My academic background has given me a solid foundation in civil engineering principles, while my side projects and internships have allowed me to harness the power of modern technologies. From building dynamic web applications to developing machine learning models, I enjoy creating solutions that drive innovation and efficiency.
+                    </p>
+                    <p>
+                        When I’m not coding or analyzing data, you can find me capturing moments through photography, learning to play the guitar, or working as a freelance graphics designer. I am always eager to learn and embrace new challenges, blending my technical skills with my enthusiasm for creating impactful solutions.
+                    </p>
+                    <p>
+                        Feel free to explore my projects and get in touch with me if you’d like to collaborate or just chat about technology and innovation!
+                    </p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Photographs Section -->
+            <section id="photographs">
+                <header class="major">
+                    <h2>Photographs</h2>
+                </header>
+                <div class="gallery">
+                    <!-- Example Photo -->
+                    <div class="gallery-item">
+                        <img src="photographs/photo1.jpeg" alt="Photo 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="photographs/photo2.jpeg" alt="Photo 2">
+                    </div>
+                    <!-- Add more photos as needed -->
+                </div>
+            </section>
+
+            <!-- Graphics Section -->
+            <section id="graphics">
+                <header class="major">
+                    <h2>Graphic Designs</h2>
+                </header>
+                <div class="gallery">
+                    <!-- Example Graphic Design -->
+
+					<div class="gallery-item">
+						<img src="graphics/1.jpg" alt="Design 1">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/2.jpg" alt="Design 2">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/3.jpg" alt="Design 3">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/4.jpg" alt="Design 4">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/5.jpg" alt="Design 5">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/6.jpg" alt="Design 6">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/7.jpg" alt="Design 7">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/8.jpg" alt="Design 8">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/9.jpg" alt="Design 9">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/10.jpg" alt="Design 10">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/11.jpg" alt="Design 11">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/12.jpg" alt="Design 12">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/13.jpg" alt="Design 13">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/14.jpg" alt="Design 14">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/15.jpg" alt="Design 15">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/16.jpg" alt="Design 16">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/17.jpg" alt="Design 17">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/18.jpg" alt="Design 18">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/19.jpg" alt="Design 19">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/20.jpg" alt="Design 20">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/21.jpg" alt="Design 21">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/22.jpg" alt="Design 22">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/23.jpg" alt="Design 23">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/24.jpg" alt="Design 24">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/25.jpg" alt="Design 25">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/26.jpg" alt="Design 26">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/27.jpg" alt="Design 27">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/28.jpg" alt="Design 28">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/29.jpg" alt="Design 29">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/30.jpg" alt="Design 30">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/31.jpg" alt="Design 31">
+					</div>
+
+
+                    <div class="gallery-item">
+                        <img src="graphics/1.jpeg" alt="Design 32">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="graphics/2.jpeg" alt="Design 33">
+                    </div>
+
+
+					<div class="gallery-item">
+						<img src="graphics/1.png" alt="Design 34">
+					</div>
+					<div class="gallery-item">
+						<img src="graphics/2.png" alt="Design 35">
+					</div>
+                    <!-- Add more designs as needed -->
+                </div>
+            </section>
+
+		    <!-- PDF Section -->
+            <section id="pdfs">
+                <header class="major">
+                    <h2>PDF Documents</h2>
+                </header>
+                <div class="pdf-gallery">
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/1.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/2.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/3.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/4.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/5.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/6.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/7.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/8.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/9.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/10.pdf" frameborder="0"></iframe>
+                    </div>
+                    <div class="pdf-gallery-item">
+                        <iframe src="graphics/11.pdf" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </section>
+			
+			
+			
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h3>Contact</h3>
+                <p>If you have any questions or would like to get in touch, please feel free to reach out via the <a href="contacts.html">contact page</a>.</p>
+            </section>
+            <section>
+                <h3>Social Media</h3>
+                <ul class="icons alt">
+                    <li><a href="https://linkedin.com/in/soouravdas15/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100066839941691&mibextid=ZbWKwL" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/soouravdas01?igsh=cm15amM0bHg0dGxs" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/soouravdas01" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
